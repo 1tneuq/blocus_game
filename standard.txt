@@ -1,0 +1,70 @@
+condition/iteration: 
+
+if(condition){
+saut de ligne seulement ici
+tabulation*1 suivie du code
+}
+
+if(condition){
+saut de ligne seulement ici
+tabulation*1 suivie du code
+}else{
+
+
+     }
+
+
+for(variable deja declarer;condition;operation){
+saut de ligne seulement ici
+tabulation*1 suivie du code
+}
+
+
+
+while(condition){
+saut de ligne seulement ici
+tabulation*1 suivie du code
+}
+
+
+do{
+tabulation*1 suivie du code
+}while(code);
+
+hierarchisation:
+
+main collé a la marge, on decalle d'une tab pour le code suivant qui n'est pas un bloc(declaration de variable tt ca) et a chaque nouveau bloc on decale d'une tabulation par rapport a la marge.
+La marge d'un element est definie en fonction du bloc dans lequel il se trouve, si un bloc est dans un autre on le decalera de 2 tabulations.
+
+BIBLIOTHEQUE:
+Les bibliotheques personelles seront dans la direction " APL1.1_QUENTIN_ADAM/biblio/nom.h ", si besoin (ranger les bibliotheque en fonction de ce quelle font) on pourra ajouter un niveau dans la hierarchie exemple: APL1.1_QUENTIN_ADAM/biblio/texte/nom.h)
+
+les bibliotheques doivent respecter les standards (ifndef etc)
+
+STRUCTURE:
+Les structures doivent etre definies dans les bibliotheques si possible, et le nom d'une variable d'une structure doit commencer par une maj 
+exemple: typedef struct poulet {...}truc; 
+         truc Nom;
+
+A chaque nouveau mot on met une maj au debut ex: NomDeLaVariable
+
+VARIABLE:
+Les variables doivent avoir un nom definissant ce qu'elles font (on evite les lettres)
+A chaque nouveau mot on met une maj au debut ex: NomDeLaVariable
+
+MAKEFILE:
+Le makefile sera dans l'arborescence principale : APL1.1_QUENTIN_ADAM/makefile
+
+
+COMMUNICATION:
+Tous les soirs a 18hh seront definies les tache finies et a faire
+
+GIT:
+Chaque git est spécifié dans le GitLog.txt avec les détails de ce qui a été modifié, et ce avec le standard suivant
+[date] [fichier(s) modifié(s)] [détails avec des phrases, les plus claires et courtes possibles]
+Ceci n'exclue pas de faire un bon petit commit clair pour que tout concorde bien
+
+COULEURS:
+
+ jaune: RGB(255,213,36)
+violet: RGB(85,24,93)
